@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+        href="./CSS/style5.css"
+        rel="stylesheet"
+    >
+    </head>
+<body>
+
+<h2 class="Titulo">The output Element</h2>
+<p class="Sub">The output element represents the result of a calculation.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="20">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
+
+</body>
+</html>
+

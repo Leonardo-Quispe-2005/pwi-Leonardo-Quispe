@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link 
+        rel="stylesheet"
+        href="./CSS/style.css">
+
+</head>
+<body>
+    <h2>HTML Forms aprendendo</h2>
+
+    <form action="/action_page.php" target="_blank" method="post"> <!-- Pode usar get mas é menos seguro.-->
+        <label class="title" for="fname">Firts name: </label><br>
+        <input type="text" id="fname" placeholder="name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" placeholder="sobrenome"><br>
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro" name="bairro"><br>
+        <label for="color">Cor favorita::</label><br>
+        <input type="color" id="color" name="color"><br>
+        <label for="data">Digite sua data favorita:</label><br>
+        <input type="date" id="data" name="data"><br>
+        <label for="numero">Digite seu número:</label><br>
+        <input type="number" id="numero" name="numero"><br>
+        <label for="senha">Crie sua senha:</label><br>
+        <input type="password" id="senha" name="senha"><br>
+        <label for="senha">Confirme sua senha:</label><br>
+        <input type="password" id="senha2" name="senha"><br>
+        <input type="checkbox" id="caixinha" name="caixinha"><br><br>
+
+        <button type="button" onclick="alert('Flamengo vai ganhar')">Aperte!</button>
+
+        <input type="submit" value="Submit">
+
+    </form> 
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

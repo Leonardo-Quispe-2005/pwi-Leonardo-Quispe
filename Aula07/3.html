@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+
+    <link href="./CSS/style3.css"
+          rel="stylesheet"
+    >
+</head>
+<body>
+    <fieldset>
+        <h2 class="cor">Minhas opções</h2>
+
+        <p>Defina o seu elemento de entrada WEB.</p>  
+            <form action="/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+       
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <h2 class="cor">Me diga para qual time você torce</h2>
+        <p>Selecione o seu time.</p>
+            <form action="/action_page.php">
+            <input list="times" name="times">
+            <datalist id="times">
+            <option value="O grande Corinthians">
+            <option value="O pequeno Flamengo">
+            <option value="O mediano Santos">
+            <option value="O esquecido São Paulo">
+            <option value="O sem mundial Palmeiras">
+        </datalist>
+        
+        </form>
+    </fieldset>
+
+    <input type="submit">
+
+</body>
+</html>
